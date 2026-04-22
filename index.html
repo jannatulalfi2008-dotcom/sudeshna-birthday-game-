@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Happy Birthday Sudeshna 💖</title>
+
+<style>
+body{
+margin:0;
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+background:linear-gradient(135deg,#ffd6ec,#fff0f8);
+font-family:Arial;
+overflow:hidden;
+}
+
+.card{
+background:white;
+padding:25px;
+border-radius:20px;
+text-align:center;
+box-shadow:0 10px 30px rgba(0,0,0,0.1);
+}
+
+h1{
+color:#ff4da6;
+}
+
+.cake{
+margin-top:20px;
+}
+
+.candle{
+width:10px;
+height:40px;
+background:#ff99cc;
+margin:5px;
+display:inline-block;
+position:relative;
+border-radius:3px;
+cursor:pointer;
+}
+
+.flame{
+width:10px;
+height:10px;
+background:orange;
+border-radius:50%;
+position:absolute;
+top:-12px;
+left:0;
+}
+
+button{
+margin-top:20px;
+padding:10px 20px;
+border:none;
+border-radius:10px;
+background:#ff66b2;
+color:white;
+font-size:16px;
+cursor:pointer;
+}
+</style>
+
+</head>
+<body>
+
+<div class="card">
+<h1>Happy 18th Birthday Sudeshna 💕</h1>
+<p>Click the candles to blow them out 🎂</p>
+
+<div class="cake">
+<div class="candle" onclick="blow(this)"><div class="flame"></div></div>
+<div class="candle" onclick="blow(this)"><div class="flame"></div></div>
+<div class="candle" onclick="blow(this)"><div class="flame"></div></div>
+</div>
+
+<p id="msg"></p>
+
+<button onclick="reset()">Relight Candles ✨</button>
+</div>
+
+<script>
+function blow(candle){
+const flame = candle.querySelector('.flame');
+if(flame){
+flame.remove();
+checkAll();
+}
+}
+
+function checkAll(){
+if(document.querySelectorAll('.flame').length===0){
+document.getElementById("msg").innerText="Make a wish Sudeshna 💖🎉";
+}
+}
+
+function reset(){
+location.reload();
+}
+</script>
+
+</body>
+</ht 
