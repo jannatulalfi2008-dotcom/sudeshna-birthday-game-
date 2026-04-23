@@ -1,0 +1,96 @@
+<!DOCTYPE html><html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Happy Birthday Sudeshna 🎂</title>
+<style>
+    body {
+        margin: 0;
+        font-family: 'Segoe UI', sans-serif;
+        background: linear-gradient(135deg, #ffd6e8, #ffeaf4);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }.card {
+    background: #fff0f6;
+    border-radius: 25px;
+    padding: 30px;
+    width: 350px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(255, 182, 193, 0.4);
+}
+
+h1 {
+    color: #ff6fa5;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #7a4b5c;
+    font-size: 14px;
+}
+
+.cake {
+    margin: 20px 0;
+}
+
+.candle {
+    width: 10px;
+    height: 30px;
+    background: #ff85a2;
+    display: inline-block;
+    margin: 0 3px;
+    position: relative;
+    border-radius: 2px;
+}
+
+.flame {
+    width: 10px;
+    height: 10px;
+    background: gold;
+    border-radius: 50%;
+    position: absolute;
+    top: -10px;
+    left: 0;
+    animation: flicker 0.3s infinite;
+}
+
+@keyframes flicker {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.2); }
+    100% { transform: scale(1); }
+}
+
+button {
+    background: #ff85a2;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background: #ff5c8a;
+}
+
+.game {
+    margin-top: 20px;
+}
+
+.heart {
+    font-size: 25px;
+    cursor: pointer;
+}
+
+</style>
+</head>
+<body><div class="card">
+    <h1>Happy Birthday Sudeshna 💖</h1>
+    <p>You make life brighter, sweeter, and full of love ✨</p><div class="cake" id="cake">
+    <div class="candle"><div class="flame"></div></div>
+    <div class="candle"><div class="flame"></div></div>
+    <div class="candle"><div class="flame"></div></div>
+</div>.html
